@@ -5,9 +5,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ google-jib-maven-plugin ]
+    branches: [ google-jib-maven-plugin, main ]
   pull_request:
-    branches: [ google-jib-maven-plugin ]
+    branches: [ google-jib-maven-plugin, main ]
 
 jobs:
   build:
